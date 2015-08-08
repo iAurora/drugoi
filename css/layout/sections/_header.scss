@@ -1,0 +1,61 @@
+.lang-switcher {
+  display: block;
+  text-align: right;
+  padding: 25px 35px 0;
+}
+
+h1#logo {
+  text-align: center;
+  margin: 0 0 50px;
+  padding: 0;
+  cursor: pointer;
+  a {
+    border-bottom: none;
+    cursor: pointer;
+  }
+}
+
+/* HOMEPAGE HEADER */
+
+.hero-area {
+  width: 100%;
+  height: 485px;
+  position: relative;
+  background-image: url('img/hero.jpg');
+}
+
+.action-box {
+  position: relative;
+  background-color: rgba($white, 0.9);
+  box-shadow: 0px 1px 8px 0px rgba($main-text, 0.2);
+  width: 210px;
+  margin: 50px auto 0;
+  padding: 55px 50px;
+  text-align: center;
+  .call-me {
+    margin-bottom: 2px;
+    margin-top: 20px;
+  }
+}
+
+.hero-address {
+  position: absolute;
+  bottom: 35px;
+  right: 30px;
+  p {
+    display: inline-block;
+    padding: 1px 7px 2px;
+    margin: 1px;
+    background: rgba($main-text, 0.7);
+  }
+}
+
+/* INNER PAGE HEADER */
+
+.inner-deco {
+  width: 960px;
+  height: 155px;
+  background-image: url('img/inner-bg.jpg');
+}
+
+/* Nav styles are in sections/_nav.scss */

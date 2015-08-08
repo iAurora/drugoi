@@ -1,0 +1,58 @@
+footer {
+  background-color: $dark-bg;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li { padding-bottom: 2px; }
+  }
+}
+
+/* Homepage-specific styles */
+
+footer.long {
+  background-image: url('img/address-bg.png');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.distance {
+  width: 380px;
+  padding: 85px 110px 100px 100px;
+  float: left;
+}
+
+.contacts {
+  width: 270px;
+  padding: 77px 100px 100px 0;
+  float: left;
+  .icon-peter-m {
+    color: $metro-blue;
+    font-size: 20px;
+    padding-right: 2px;
+  }
+}
+
+/* Google map */
+#map {
+  height: 360px;
+  width: 960px;
+  background-color: red;
+}
+
+/* Common footer styles */
+
+.short-footer {
+  text-align: center;
+  padding: 30px 0 0;
+}
+
+/* Nav styles are in sections/_nav.scss */
+
+.copyright {
+  display: block;
+  border-top: 1px solid lighten($dark-bg, 10%);
+  padding: 10px 100px;
+  margin: 0;
+  color: darken($mid-text, 30%);
+}

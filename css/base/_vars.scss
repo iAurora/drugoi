@@ -1,0 +1,33 @@
+/*  VARIABLES */
+
+// Colors
+
+$main-text: #1f2325;
+$mid-text: #7c939d;
+$light-text: lighten($mid-text, 15%);
+$dark-grey-text: #616565;
+$black: #000000;
+$white: #ffffff;
+$red: #ca2b2d;
+$dark-red: darken($red, 20%);
+$light-red: lighten($red, 10%);
+
+$biege: #c0c2b7;
+$gold: #caa563;
+$metro-blue: #255daa;
+
+$light-bg: #fefefe;
+$mid-bg: #edf6fa;
+$dark-bg: #1a1b1b;
+$dark-red-bg: #b72a2c;
+
+$light-border: lighten($mid-text, 30%);
+$dark-border: #424a4f;
+$black-border: #333636;
+
+
+// Fonts
+
+$mainfont: 'PT Sans', Calibri, sans-serif;
+$headfont: 'futura-pt','Futura PT', Tahoma, sans-serif;
+$copytext: 14px;

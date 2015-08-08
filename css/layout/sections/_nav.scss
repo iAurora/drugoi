@@ -1,0 +1,67 @@
+/* Generic nav styles */
+nav ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    a {
+      display: inline-block;
+      border-bottom: none;
+    }
+  }
+}
+
+
+/* Homepage main nav */
+.home-nav ul {
+  background-color: $mid-bg;
+  a {
+    border-top: 3px solid $mid-bg;
+    padding: 25px 10px 28px;
+    &:hover { border-top: 3px solid $red; }
+    &:active {
+      color: $dark-red;
+      border-top: 3px solid $dark-red;
+      background-color: darken($mid-bg, 3%);
+    }
+  }
+}
+
+
+/* Inner page main nav */
+.inner-nav ul {
+  background-color: $red;
+  a {
+    color: lighten($red, 45%);
+    padding: 8px 12px;
+    &:hover {
+      background-color: darken($red, 5%);
+      color: $white;
+    }
+    &:active { background-color: darken($red, 10%); }
+  }
+}
+
+
+/* Footer nav */
+.bottom-nav ul {
+  margin: 10px 0 15px;
+  li { padding-right: 10px; }
+}
+
+
+/* Pagination */
+.pagination {
+  margin: -5px 0 20px;
+  a, span {
+    display: inline-block;
+    background-color: lighten($mid-text, 42%);
+    padding: 4px 6px 2px;
+  }
+  i { vertical-align: middle; }
+  a:hover { background-color: lighten($mid-text, 38%); }
+  span { background-color: $white; }
+  .news-page & { margin-top: 35px; }
+}

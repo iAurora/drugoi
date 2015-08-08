@@ -1,0 +1,151 @@
+/* Header styles are in sections/_header.scss */
+/* Nav styles are in sections/_nav.scss */
+
+/* Friends & Social section */
+
+.friends {
+  padding: 70px 0 90px;;
+  background: url('img/friends-triangle-bg.png') no-repeat 100% 100%;
+}
+
+.share-page {
+  float: left;
+  width: 153px;
+  height: 260px;
+  background: url('img/friends-bg.png') no-repeat 0% 0%;
+  padding: 150px 270px 0 57px;
+  p {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 9px;
+  }
+}
+
+.share-page ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    padding-right: 0;
+  }
+  a {
+    display: inline-block;
+    border-bottom: 0;
+    margin-right: 5px;
+  }
+  .icons {
+    display: inline-block;
+    font-size: 14px;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    color: $white;
+    background-color: $main-text;
+    &:hover { background-color: $red; }
+  }
+}
+
+.friends-text {
+  float: left;
+  width: 355px;
+  padding: 10px 115px 0 0;
+  .gray-btn {
+    margin-top: 15px;
+  }
+}
+
+/* Image Gallery section */
+
+.gallery {
+  height: 355px;
+  background-image: url('img/gallery-triangle-bg.png');
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-color: $dark-red-bg;
+  padding: 85px 100px 0 80px;
+}
+
+ul#light-gallery {
+  list-style: none outside none;
+  padding-left: 0;
+  margin: 0;
+}
+.gallery li {
+  display: block;
+  float: left;
+  height: 115px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 175px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+.gallery li a {
+  height: 115px;
+  width: 175px;
+}
+.gallery li a img {
+  max-width: 175px;
+}
+
+.gallery .btn {
+  margin-top: 10px;
+}
+
+/* Utilities section */
+
+.utilities {
+  padding: 90px 0 0 100px;
+  background-image: url('img/utilities-bg.png'),
+                    url('img/leningrad-bg.png');
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-color: $light-bg;
+}
+
+.description {
+  width: 430px;
+  padding-right: 60px;
+  padding-bottom: 90px;
+  float: left;
+}
+
+.news {
+  float: left;
+  width: 270px;
+  margin-top: 30px;
+}
+
+.util-ico {
+  padding: 0;
+  margin: 12px 0 30px;
+  list-style: none;
+  text-align: center;
+  li {
+    display: inline-block;
+    padding-left: 10px;
+    &:first-child { padding-left: 0; }
+  }
+  .icons {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: $light-text;
+  }
+}
+
+.newslist {
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  span { display: block; }
+  li { margin-bottom: 1em; }
+}
+
+/* Footer styles are in sections/_footer.scss */

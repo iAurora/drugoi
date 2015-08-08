@@ -1,0 +1,120 @@
+/* Link styles */
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: $main-text;
+  border-bottom: 1px solid $red;
+  border-bottom: 1px solid rgba($red, 0.7);
+  &:hover { color: $red; }
+  &:active{ color: $dark-red; }
+}
+
+.on-dark a {
+  color: $biege;
+  &:hover { color: $white; }
+}
+
+.anchor { border-bottom: 1px dashed rgba($red, 0.7); }
+
+.social-profiles {
+  i { color: $red; }
+  a:hover i { color: $light-red; }
+}
+
+.bottom-nav a {
+  color: darken($mid-text, 20%);
+  border-bottom: 0;
+}
+
+.r-end a {
+  border: none;
+  text-decoration: underline;
+}
+
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.action-btn {
+  background-color: $red;
+  box-shadow: 0px 2px 2px 0px rgba($main-text, 0.2);
+  padding: 8px 17px 5px;
+  margin: 5px 0;
+  color: $white;
+  &:hover, &:focus {
+    color: white;
+    box-shadow: 0px 2px 2px 0px rgba($main-text, 0.2);
+    background-color: $light-red;
+  }
+  &:active {
+    color: white;
+    box-shadow: inset 2px 2px 0px rgba($main-text, 0.2);
+    background-color: darken($red, 10%);
+  }
+  footer & { color: $white; }
+}
+
+.reserve {
+  position: absolute;
+  right: 150px;
+  bottom: 50px;
+  height: 26px;
+  padding: 6px 15px 5px;
+}
+
+.gray-btn {
+  display: inline-block;
+  border: 2px solid $mid-text;
+  color: $mid-text;
+  padding: 5px 20px 3px;
+  &:hover, &:focus {
+    color: $white;
+    background-color: $mid-text;
+  }
+  &:active {
+    color: $white;
+    background-color: darken($mid-text, 20%);
+    border: 2px solid darken($mid-text, 20%);
+  }
+}
+
+.white-btn {
+  display: inline-block;
+  border: 2px solid $white;
+  color: $white;
+  padding: 5px 20px 3px;
+  &:hover, &:focus {
+    color: $red;
+    background-color: $white;
+  }
+  &:active {
+    color: $red;
+    background-color: darken($white, 10%);
+    border: 2px solid darken($white, 10%);
+  }
+}
+
+.black-btn {
+  border: 2px solid lighten($main-text, 15%);
+  color: $white;
+  background-color: lighten($main-text, 15%);
+  padding: 5px 20px 3px;
+  &:hover, &:focus {
+    color: $white;
+    background-color: lighten($main-text, 5%);
+    border: 2px solid lighten($main-text, 5%);
+  }
+  &:active {
+    color: $white;
+    background-color: $black;
+    border: 2px solid $black;
+  }
+}
+
+.gallery .btn { padding: 6px 45px 3px; }

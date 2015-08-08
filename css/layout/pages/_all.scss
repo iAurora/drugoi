@@ -1,0 +1,14 @@
+body { background-image: url('img/paper-bg.jpg'); }
+
+.container {
+  width: 960px;
+  margin: 50px auto;
+  background: $white;
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: $black;
+  padding: 0.2em 0;
+}

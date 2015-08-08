@@ -1,0 +1,94 @@
+.r-content { padding-bottom: 55px; }
+
+.rooms-area {
+  width: 840px;
+  padding: 5px 60px 15px;
+  background-color: $mid-bg;
+  background-image: url('img/slippers-bg.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.room-type {
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.room-card, .room-card * { box-sizing: border-box; }
+
+.room-card {
+  position: relative;
+  width: 840px;
+  background-image: url('img/room-card-bg.png');
+  background-repeat: repeat-y;
+  box-shadow: 0px 1px 8px 0px rgba($main-text, 0.08);
+  margin-bottom: 30px;
+}
+
+.room-info {
+  width: 420px;
+  padding: 55px 50px 65px 45px;
+  float: left;
+  min-height: 350px;
+  img {
+    width: 160px;
+    height: 108px;
+    float: left;
+    margin-bottom: 25px;
+  }
+}
+
+.room-header {
+    margin-left: 25px;
+    float: left;
+    width: 135px;
+    h3 { margin-top: 0; }
+    span { color: $light-text; }
+    em {
+      font-style: normal;
+      font-weight: bold;
+    }
+  }
+
+.price-table-area {
+  position: relative;
+  color: $white;
+  float: left;
+  width: 420px;
+  padding: 50px 45px;
+  text-align: center;
+  table {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .date-title {
+    display: block;
+    color: $gold;
+  }
+   th, .rubl { color: $dark-grey-text; }
+   th { padding: 5px 3px; }
+  .dates {
+    padding: 5px 10px 6px;
+    text-align: left;
+  }
+  .prices {
+    padding: 0 13px;
+    width: 1%;
+    white-space: nowrap;
+  }
+  tr { border-bottom: 1px solid $dark-border; }
+}
+
+.shared-card {
+  background-image: url('img/room-card-s-bg.png');
+  tr { border-bottom: 1px solid $black-border; }
+}
+
+.r-end {
+  margin-top: 45px;
+  text-align: center;
+  .link-bit {
+    padding: 1px 6px 2px;
+    background-color: rgba($white, 0.9);}
+  i { font-size: 9px; color: $red;}
+}

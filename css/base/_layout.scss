@@ -1,0 +1,13 @@
+/* Sections */
+@import 'layout/sections/header';
+@import 'layout/sections/nav';
+@import 'layout/sections/content';
+@import 'layout/sections/footer';
+
+/* Page-specific */
+@import 'layout/pages/all';
+@import 'layout/pages/index';
+@import 'layout/pages/rooms';
+@import 'layout/pages/feedback';
+@import 'layout/pages/news-single';
+@import 'layout/pages/news-archive';

@@ -1,0 +1,168 @@
+/* ----- FONTS ----- */
+
+/* Icon Fonts */
+@import 'base/icon-font';
+
+/* Rouble sign font */
+@font-face {
+    font-family: 'als_rublregular';
+    src: url('../fonts/rouble/rouble-webfont.eot');
+    src: url('../fonts/rouble/rouble-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rouble/rouble-webfont.woff') format('woff'),
+         url('../fonts/rouble/rouble-webfont.ttf') format('truetype'),
+         url('../fonts/rouble/rouble-webfont.svg#als_rublregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.rubl {font-family: als_rublregular; }
+
+
+/* ----- BASE TYPEGRAPHY ----- */
+
+html {
+  font-family: $mainfont;
+  color: $main-text;
+  font-size: $copytext;
+  line-height: 1.5;
+  .on-dark {
+    color: $white;
+    letter-spacing: 0.2px;
+  }
+}
+
+h1, h2, h3 {
+  font-family: $headfont;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 1.3;
+  margin: 0.67em 0; }
+h2 { font-size: 18px; }
+h3 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0.1em;
+  line-height: 1.8; }
+h4 {
+  font-weight: bold;
+  margin-bottom: 0.3em; }
+
+quote .author { font-size: 12px; }
+
+/* Headline separators */
+
+.h-sep:after, .h-sep-centered:after {
+  display: block;
+  content: "";
+  border-bottom: 2px solid;
+  border-color: $red;
+  width: 45px;
+  margin: 7px 0 0;
+}
+
+.h-sep-centered:after { margin: 7px auto 0; }
+
+
+/* Quick styling */
+
+.sm { font-size: 12px; }
+.featured { font-size: 17px; }
+.b { font-weight: bold; }
+.midgray { color: $mid-text; }
+
+
+
+/* ----- PAGE ELEMENTS ----- */
+
+/* header */
+
+.lang-switcher { font-size: 13px; }
+
+.action-box {
+  p {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .call-me {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .phone { font-size: 18px; }
+}
+
+.hero-address { font-size: 12px; }
+
+/* main nav */
+
+.home-nav { font-size: 16px; }
+
+/* index page */
+
+.share-page p { line-height: 1.2; }
+
+.newslist {
+  font-size: 12px;
+  span { font-size: 11px; }
+  li { margin-bottom: 1em; }
+}
+
+/* footer */
+
+footer.long .distance ul { font-size: 13px; }
+
+.contacts {
+  p { line-height: 1.4; }
+  h3 { margin-bottom: 0.15em; }
+}
+
+.bottom-nav { font-size: 13px; }
+
+.copyright { font-size: 12px; }
+
+.number-of-rooms { font-size: 12px;}
+
+/* rooms page */
+
+.price-table-area {
+  font-size: 13px;
+  line-height: 1.1;
+  .date-range {  font-size: 11px;  }
+  .prices {
+    font-weight: bold;
+    .rubl { font-weight: normal; }
+  }
+  th {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+  }
+}
+
+.r-end {
+  line-height: 1.8;
+  font-size: 14px;
+  a { font-size: 12px; }
+}
+
+/* feedback page */
+
+.contact-anchor { font-size: 15px; }
+
+.v-error { font-size: 12px; }
+
+.pagination { font-size: 13px; }
+
+.testimonial h4 { font-size: 16px; display: inline-block; }
+
+/* news pages*/
+
+.news-date { font-size: 11px; }
+
+.news-links { font-size: 12px; }
+
+.news-archive span { font-size: 12px; }
