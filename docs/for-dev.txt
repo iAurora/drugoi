@@ -7,6 +7,7 @@
 Для английской версии надо будет изменить эти записи в head:
 <html class="no-js" lang="ru"> [lang="en"]
 <meta property="og:locale" content="ru_RU" /> [content="en_US"]
+<script src="https://maps.googleapis.com/maps/api/js?v=3&language=ru"></script> [language=en]
 <meta name="apple-mobile-web-app-title" content="Другой Хостел"> [content="Drugoi Hostel"]
 <meta name="application-name" content="Другой Хостел"> [content="Drugoi Hostel"]
 в favicons/manifest.json заменить "name": "Другой Хостел" ["name": "Drugoi Hostel"]

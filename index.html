@@ -52,22 +52,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script><!-- Подгрузка jQuery если CDN не доступен -->
 
-    <!-- Карты Google -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map');
-        var mapOptions = {
-          center: new google.maps.LatLng(59.920051, 30.362183),
-          zoom: 17,
-          scrollwheel: false,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-
     <!-- Галерея -->
     <script src="js/vendor/lightGallery.min.js"></script>
     <script>
@@ -261,5 +245,8 @@
         </div>
       </footer>
     </div> <!-- End container -->
+    <!-- Google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&language=ru"></script>
+    <script  type="text/javascript" src="js/map.js"></script>
   </body>
 </html>
