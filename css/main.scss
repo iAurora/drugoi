@@ -1,11 +1,12 @@
 @import 'helpers/reset';            // defaults and fixes
 @import 'helpers/helpers';          // helper classes
-@import 'helpers/print';            // print styles
 
 @import 'base/vars';                // fonts and color variables
 @import 'base/type';                // font sizes, weights and faces
 @import 'base/layout';              // element sizes, position and colors
 @import 'base/links-and-buttons';   // interactive elements
 @import 'base/animate';             // animation effects
+
+@import 'helpers/print';            // print styles
 
 @import 'vendor/lightGallery';      // js gallery

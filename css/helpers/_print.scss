@@ -1,59 +1,86 @@
 @media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+  .simple-print {
+    background-image: none;
+    .container {
+      margin: 60px auto;
+    }
+    .price-table-area {
+      padding: 50px 45px 35px;
+    }
+    .rooms-area,
+    .price-table-area,
+    .room-card,
+    .shared-card {
+      background-image: none;
+      background: transparent !important;
+      color: #000 !important;
+      page-break-inside: avoid;
+    }
+    .room-type {
+      margin: 20px 0 40px;
+    }
+    .room-info {
+      min-height: 20px;
+      padding-bottom: 40px;
+    }
+    .date-title {
+      color: darken($gold, 15%);
+    }
+    .r-content { padding-bottom: 10px; }
+    .lang-switcher,
+    .hero-area,
+    .home-nav,
+    .friends,
+    .gallery,
+    .utilities,
+    .short-footer,
+    .inner-deco,
+    .inner-nav,
+    .reserve,
+    .r-end {
+      display: none !important;
+      visibility: hidden;
+    }
+    footer.long {
+      background: transparent !important;
+      color: #000 !important;
+    }
+    .social-profiles {
+      a,
+      a:visited {
+        color: $red;
+        text-decoration: underline;
+        border: none;
+      }
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+      a[href]:after {
+        content: " (" attr(href) ")";
+      }
 
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
+      abbr[title]:after {
+        content: " (" attr(title) ")";
+      }
 
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  thead {
-    display: table-header-group;
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  img {
-    max-width: 100% !important;
-  }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
+      a[href^="#"]:after,
+      a[href^="javascript:"]:after {
+        content: "";
+      }
+    }
+    .contacts {
+      a,
+      a:visited {
+        color: $red;
+        text-decoration: underline;
+        border: none;
+      }
+    }
+    .contacts, .distance {
+      padding: 50px 70px 90px 70px;
+    }
+    #map {
+      height: 500px;
+      width: 960px;
+      background-color: $white;
+    }
   }
 }
