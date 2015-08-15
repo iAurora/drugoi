@@ -1,5 +1,42 @@
 /* ----- FONTS ----- */
 
+/**
+ * @license
+ * MyFonts Webfont Build ID 3074699, 2015-08-12T15:08:06-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: FuturaPT-Heavy by ParaType
+ * URL: http://www.myfonts.com/fonts/paratype/futura-book/heavy/
+ * Copyright: Copyright &#x00A9; 1995 ParaGraph Intl., &#x00A9; 1998 ParaType Inc., ParaType Ltd. All rights reserved.
+ * Licensed pageviews: 10,000
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3074699
+ *
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2eea8b");
+
+
+@font-face {
+font-family: 'FuturaPT-Heavy';
+    src: url('../fonts/futura/2EEA8B_0_0.eot');
+    src: url('../fonts/futura/2EEA8B_0_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/futura/2EEA8B_0_0.woff2') format('woff2'),
+        url('../fonts/futura/2EEA8B_0_0.woff') format('woff'),
+        url('../fonts/futura/2EEA8B_0_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Icon Fonts */
 @import 'base/icon-font';
 
