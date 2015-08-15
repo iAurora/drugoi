@@ -8,9 +8,9 @@
 <html class="no-js" lang="ru"> [lang="en"]
 <meta property="og:locale" content="ru_RU" /> [content="en_US"]
 <script src="https://maps.googleapis.com/maps/api/js?v=3&language=ru"></script> [language=en]
-<meta name="apple-mobile-web-app-title" content="Другой Хостел"> [content="Drugoi Hostel"]
-<meta name="application-name" content="Другой Хостел"> [content="Drugoi Hostel"]
-в favicons/manifest.json заменить "name": "Другой Хостел" ["name": "Drugoi Hostel"]
+<meta name="apple-mobile-web-app-title" content="ДХ"> [content="DH"]
+<meta name="application-name" content="ДХ"> [content="DH"]
+в favicons/manifest.json заменить "name": "ДХ" ["name": "DH"]
 А так же не забыть перегенерировать все мета и соц-мета теги и текст для шаринга твиттера и фб (он закодирован в самой ссылке).
 
 По-хорошему, мета теги должны прописываться для каждой страницы индивидуально ( через админку или вручную) и отражать содержание конкретной страницы. Я прописала тег только для главной. Для остальных там плейсхолдер, так что обратите внимание.
