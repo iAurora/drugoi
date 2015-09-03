@@ -41,6 +41,10 @@ nav ul {
       color: $white;
     }
     &:active { background-color: darken($red, 10%); }
+    &.current {
+      background-color: darken($red, 5%);
+      cursor: default;
+    }
   }
 }
 
