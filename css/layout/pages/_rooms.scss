@@ -19,8 +19,9 @@
 .room-card {
   position: relative;
   width: 840px;
-  background-image: url('img/room-card-bg.png');
+  background-image: url('img/room-card-n-bg.png');
   background-repeat: repeat-y;
+  background-position: center;
   box-shadow: 0px 1px 8px 0px rgba($main-text, 0.08);
   margin-bottom: 30px;
 }
@@ -80,7 +81,8 @@
 }
 
 .shared-card {
-  background-image: url('img/room-card-s-bg.png');
+  background-image: url('img/room-card-n-s-bg.png');
+  background-position: center;
   tr { border-bottom: 1px solid $black-border; }
 }
 
